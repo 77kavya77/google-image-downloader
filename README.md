@@ -18,7 +18,10 @@ pip install -r requirements.txt
 python image_downloader.py "your search query" -n 20 -o my_images -t 10
 
 ## Arguments
-query          : Search term (required)
+query: Search term (required)
+
 -n/--num_images: Number of images (default: 10)
--o/--output    : Output folder (default: "downloaded_images")
--t/--threads   : Download threads (default: 5)
+
+-o/--output: Output folder (default: "downloaded_images")
+
+-t/--threads: Download threads (default: 5)
